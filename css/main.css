@@ -1,0 +1,124 @@
+@import "reset.css";
+body {
+    overflow: hidden;
+    background-color: #38ABFF;
+    font-family: 'PT Mono', monospace;
+  }
+
+@font-face {
+  font-family: 'PT Mono', monospace;
+  src: url('.../fonts/PTMono-Regular.ttf');
+}
+
+h1 {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  padding-top: 65vh;
+}
+
+  /* .ground {
+    position: absolute;
+    top: 1000px;
+    background-color: #C0E3B9;
+    height: 100vh;
+  } */
+
+
+.nimb {
+  
+}
+
+.oblako_1 {
+  position: absolute;
+  width: 60vh;
+  align-items: center;
+}
+
+.oblako_2 {
+
+}
+
+.oblako_3 {
+
+}
+
+.oblako_4 {
+
+}
+
+.oblako_5 {
+
+}
+
+.oblako_6 {
+
+}
+
+.oblako_7 {
+
+}
+
+.oblako_8 {
+
+}
+
+.oblako_9 {
+
+}
+
+.oblako_10 {
+
+}
+
+.oblako_11 {
+
+}
+
+.oblako_12 {
+
+}
+
+.oblako_13 {
+
+}
+
+.oblako_14 {
+
+}
+
+.oblako_15 {
+
+}
+
+.oblako_16 {
+
+}
+
+.oblako_17 {
+
+}
+
+.oblako_18 {
+
+}
+
+.oblako_19 {
+
+}
+
+.oblako_20 {
+
+}
+
+.oblako_21 {
+
+}
+
+.oblako_22 {
+
+}
+
+.oblako_23 {
+
+}
