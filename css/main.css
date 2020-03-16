@@ -68,9 +68,12 @@ h1 {
   width: 30%;
   left: 50%;
   top: -10%;
+  opacity: 0;
+  transition: opacity 2s;
 }
 .an_1 {
   width: 70%;
+  top: -30%;
 }
 
 .an_2 {
@@ -115,10 +118,12 @@ h1 {
 
 .an_12 {
   width: 60%;
+  top: -30%;
 }
 
 .an_13 {
   width: 60%;
+  top: -30%;
 }
 
 

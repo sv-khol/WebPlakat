@@ -3,11 +3,11 @@ window.onload = function() {
     console.log(clouds);
 
     
-    for (let index = 0; index < clouds.length -1; index++) {
+    for (let index = 0; index < clouds.length; index++) {
         let w = Math.round(document.body.offsetWidth / 3 + Math.random()*200);
         
         clouds[index].style.width = w +'px';
-        let x = Math.round(Math.random()* document.body.offsetWidth) - w;
+        let x = Math.abs(Math.round(Math.random()* document.body.offsetWidth) - w);
         clouds[index].style.marginLeft = x + 'px'; 
         let y = Math.round(Math.random()* 50);
         clouds[index].style.marginTop = y + 'px';
@@ -19,6 +19,10 @@ window.onload = function() {
             if (clouds[index].getAttribute('ocupated')=='false') {
                 let fileName = Math.round(Math.random()*12 + 1);
                 this.appendChild(new Animal(fileName));
+                let   an = this.lastChild;
+                let leftA = (w - parseInt(window.getComputedStyle(an).width))/2;
+                an.style.left= leftA;
+                console.log(leftA);
                 clouds[index].setAttribute('ocupated', 'true');
             }
         });
@@ -30,9 +34,8 @@ window.onload = function() {
         newAnimal.src = '../pictures/' +fileName + '.png';
         newAnimal.classList.add('animal');
         newAnimal.classList.add('an_'+ fileName);
+        newAnimal.style.opacity = 1;
         console.log(newAnimal.src);
-        let width = getComputedStyle(newAnimal).width;
-        console.log(width);
         return newAnimal;
 
     }
