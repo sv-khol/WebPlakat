@@ -50,10 +50,8 @@ h1 {
   width: 100%;
 }
 .move {
-  animation-name: move_1;
+  /*animation-name: move_1;*/
   animation-duration: 18s, 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 1s, 0;
   animation-iteration-count: infinite, infinite;
   animation-direction: alternate;
 }
