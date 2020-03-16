@@ -23,6 +23,7 @@ window.onload = function() {
                 let leftA = (w - parseInt(window.getComputedStyle(an).width))/2;
                 an.style.left= leftA;
                 console.log(leftA);
+                an.style.opacity = 1;
                 clouds[index].setAttribute('ocupated', 'true');
             }
         });
@@ -34,8 +35,11 @@ window.onload = function() {
         newAnimal.src = '../pictures/' +fileName + '.png';
         newAnimal.classList.add('animal');
         newAnimal.classList.add('an_'+ fileName);
-        newAnimal.style.opacity = 1;
         console.log(newAnimal.src);
+        newAnimal.addEventListener('click', function(){
+            this.style.opacity = 0;
+            this.parentElement.setAttribute('ocupated', 'false');
+        });
         return newAnimal;
 
     }
