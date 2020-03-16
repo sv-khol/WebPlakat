@@ -1,6 +1,6 @@
 @import "reset.css";
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #38ABFF;
     font-family: 'PT Mono', monospace;
   }
@@ -14,7 +14,7 @@ h1 {
   font-size: 80px;
   color: white;
   text-align: center;
-  padding-top: 65vh;
+  padding-top: 10vh;
 }
 
   /* .ground {
@@ -24,15 +24,53 @@ h1 {
     height: 100vh;
   } */
 
+.header {
+  height: 100vh;
+  text-align: center;
+}
 
-.nimb {
-  
+
+.oblako {
+  width: 60vh;
+  align-items: center;
+}
+
+.oblaka {
+ overflow: hidden;
 }
 
 .oblako_1 {
-  position: absolute;
   width: 60vh;
   align-items: center;
+  position: relative;
+}
+.cloud_1 {
+  width: 100%;
+}
+.animal {
+  position: absolute;
+  width: 30%;
+  left: 45%;
+  top: -10%;
+}
+.an_1 {
+  width: 70%;
+}
+
+.an_2 {
+  width: 60%;
+}
+
+.an_3 {
+  width: 60%;
+}
+
+.an_4 {
+  width: 60%;
+}
+
+.an_5 {
+  width: 60%;
 }
 
 .oblako_2 {
