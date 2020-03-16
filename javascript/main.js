@@ -17,7 +17,7 @@ window.onload = function() {
 
         clouds[index].addEventListener('click', function(){
             if (clouds[index].getAttribute('ocupated')=='false') {
-                let fileName = Math.round(Math.random()*4 + 1);
+                let fileName = Math.round(Math.random()*12 + 1);
                 this.appendChild(new Animal(fileName));
                 clouds[index].setAttribute('ocupated', 'true');
             }
@@ -31,6 +31,8 @@ window.onload = function() {
         newAnimal.classList.add('animal');
         newAnimal.classList.add('an_'+ fileName);
         console.log(newAnimal.src);
+        let width = getComputedStyle(newAnimal).width;
+        console.log(width);
         return newAnimal;
 
     }

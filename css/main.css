@@ -50,7 +50,7 @@ h1 {
 .animal {
   position: absolute;
   width: 30%;
-  left: 45%;
+  left: 50%;
   top: -10%;
 }
 .an_1 {
@@ -58,20 +58,53 @@ h1 {
 }
 
 .an_2 {
-  width: 60%;
+  width: 70%;
 }
 
 .an_3 {
-  width: 60%;
+  width: 20%;
 }
 
 .an_4 {
-  width: 60%;
+  width: 50%;
 }
 
 .an_5 {
+  width: 50%;
+}
+
+.an_6 {
+  width: 50%;
+}
+
+.an_7 {
+  width: 50%;
+}
+
+.an_8 {
+  width: 20%;
+}
+
+.an_9 {
+  width: 20%;
+}
+
+.an_10 {
   width: 60%;
 }
+
+.an_11 {
+  width: 60%;
+}
+
+.an_12 {
+  width: 60%;
+}
+
+.an_13 {
+  width: 60%;
+}
+
 
 .oblako_2 {
 
